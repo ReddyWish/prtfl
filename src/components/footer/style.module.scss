@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Bellefair&family=Climate+Crisis&family=DM+Sans:opsz,wght@9..40,700&family=Mukta:wght@200;300;400;600&family=Raleway&display=swap');
+
+.footer {
+  display: flex;
+  flex-wrap: wrap;
+  color: white;
+  justify-content: center;
+  //background: linear-gradient(45deg, rgba(41,41,41,1) 0%, rgba(13,12,13,1) 99%);
+}
+
+.item {
+  flex: 0 50%;
+  text-align: center;
+  align-self: center;
+  display: flex;
+  justify-content: center; /* Horizontally center content */
+  align-items: center; /* Vertically center content */
+}
+
+.contact {
+  position: relative;
+  color: white;
+  width: 100%;
+  font-size: 50px;
+  font-family: "Alfa Slab One", monospace;
+  letter-spacing: 7px;
+}
+
+.accent {
+  color: #ef7fbe;
+  display: inline-block; /* Ensures that the rotation doesn't affect the layout of surrounding elements */
+  transform: rotate(-10deg);
+  transition: all .8s;
+
+
+}
+
+.accent:hover {
+  transform: rotate(0deg);
+  color: white;
+}
+
+.form {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 40px;
+
+
+  textarea {
+    padding: 17px;
+    border: none;
+    outline: none;
+    background: linear-gradient(45deg, rgba(41,41,41,1) 2%, rgba(13,12,13,1) 99%);
+    color: white;
+    border-radius: 20px;
+    margin-bottom: 5px;
+    resize: none;
+  }
+
+  input {
+    padding: 17px;
+    border: none;
+    outline: none;
+    margin-bottom: 5px;
+    border-radius: 20px;
+    background: linear-gradient(45deg, rgba(41,41,41,1) 2%, rgba(13,12,13,1) 99%);
+    color: white;
+  }
+}
+
+.btn {
+  display: inline-block;
+  border-radius: 20px;
+  background: linear-gradient(45deg, rgba(41,41,41,1) 2%, rgba(13,12,13,1) 99%);
+  padding: 20px;
+  color: white;
+  font-size: 30px;
+  border: none;
+  font-weight: bold;
+  transition: background 2s ease, opacity .9s ease;
+}
+
+.btn:hover {
+  background: linear-gradient(280deg, rgba(41,41,41,1) 2%, rgba(13,12,13,1) 99%);
+  opacity: 0.8;
+}
+
+.error {
+  color: red;
+}
+

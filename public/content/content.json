@@ -1,0 +1,14 @@
+{
+  "1": {
+    "title": "ITalk",
+    "content": "This project represents my inaugural full-stack endeavor – a modest yet feature-rich blog that resembles a network. Throughout its development, I diligently applied best practices to enhance my skills. The tech stack includes React, Node.js, MongoDB, Redux Toolkit, and Express. I also delved into JWT tokens for authentication, implemented server-side pagination and post filtering, secured routes, and introduced role-based access control, distinguishing between admin and user roles."
+  },
+  "2": {
+    "title": "ITalk",
+    "content": "This project represents my inaugural full-stack endeavor – a modest yet feature-rich blog that resembles a network. Throughout its development, I diligently applied best practices to enhance my skills. The tech stack includes React, Node.js, MongoDB, Redux Toolkit, and Express. I also delved into JWT tokens for authentication, implemented server-side pagination and post filtering, secured routes, and introduced role-based access control, distinguishing between admin and user roles."
+  },
+  "3": {
+    "title": "ITalk",
+    "content": "This project represents my inaugural full-stack endeavor – a modest yet feature-rich blog that resembles a network. Throughout its development, I diligently applied best practices to enhance my skills. The tech stack includes React, Node.js, MongoDB, Redux Toolkit, and Express. I also delved into JWT tokens for authentication, implemented server-side pagination and post filtering, secured routes, and introduced role-based access control, distinguishing between admin and user roles."
+  }
+}

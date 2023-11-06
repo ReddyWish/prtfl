@@ -1,0 +1,51 @@
+.wrapper {
+  display: flex;
+  padding-bottom: 80px;
+  padding-top: 60px;
+}
+
+.content {
+  border-bottom: 1px solid white;
+  padding-left: 20px;
+  padding-bottom: 30px;
+}
+
+.title {
+  color: white;
+  letter-spacing: 3px;
+  position: relative;
+  padding-bottom: 20px;
+
+  span {
+    position: relative;
+    display: inline-block;
+    font-size: 40px;
+    color: #fff;
+    text-transform: uppercase;
+  }
+}
+
+
+.subtitle {
+  color: white;
+  letter-spacing: 2px;
+}
+
+.item {
+  flex: 0 50%;
+  background: black;
+}
+
+.name {
+  font-weight: bold;
+  font-size: 20px;
+  color: #ef7fbe;
+}
+
+@keyframes flip {
+  0%,80% {
+    transform: rotateY(360deg)
+  }
+}
+
+//calle del Rector Triado, 35

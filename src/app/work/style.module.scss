@@ -1,0 +1,145 @@
+.progress {
+  position: fixed;
+  left: 0;
+  right: 0;
+  height: 8px;
+  background: var(--accent);
+  bottom: 10px;
+}
+
+.projects {
+  color: white;
+  letter-spacing: 3px;
+  position: relative;
+  padding-left: 20px;
+
+  span {
+    position: relative;
+    display: inline-block;
+    font-size: 40px;
+    color: #fff;
+    text-transform: uppercase;
+    animation: flip 2s infinite;
+    animation-delay: calc(.2s * var(--i))
+  }
+}
+
+.projectname {
+  font-size: 36px;
+  color: #ef7fbe;
+}
+
+.container {
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 15px;
+  transition: all .8s;
+
+}
+
+.card {
+  perspective: 1500px;
+  position: relative;
+  height: 600px;
+  width: 300px;
+  border-radius: 70px;
+
+
+  &__side {
+    height: 600px;
+    transition: all .8s ease;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    backface-visibility: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.001);
+
+
+    &--front {
+      background-color: white;
+    }
+
+    &--back {
+      transform: rotateY(180deg);
+
+      &-1 {
+        background-color: #292929;
+      }
+
+      &-2 {
+        background-color: #292929;
+      }
+
+
+      &-3 {
+        background-color: #292929;
+      }
+
+      &-4 {
+        background-color: #292929;
+      }
+    }
+  }
+
+  &:hover &__side--front {
+    transform: rotateY(-180deg);
+  }
+
+  &:hover &__side--back {
+    transform: rotateY(0);
+  }
+}
+
+.image {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.cardTitle {
+  color: #ef7fbe;
+  letter-spacing: 1px;
+  //font-size: 16px;
+  transition: all 0.3s;
+
+  &:hover {
+    color: #e8bad1;
+    letter-spacing: 2px;
+    //font-size: 18px;
+  }
+}
+
+.cardSubTitle {
+  color: white;
+  line-height: 1.2;
+
+}
+
+.accent {
+  color: #ef7fbe;
+}
+
+.customLink {
+  text-decoration: none;
+
+}
+
+.border {
+  width: 50%;
+  border: .5px solid white;
+  margin-bottom: 80px;
+  margin-top: 30px;
+}
+
+@keyframes flip {
+  0%, 80% {
+    transform: rotateY(360deg)
+  }
+}
+
+
+
