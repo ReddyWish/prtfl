@@ -1,7 +1,7 @@
 'use client'
 import React from 'react';
 import styles from './style.module.scss';
-import { useForm } from 'react-hook-form';
+import { useForm } from "react-hook-form";
 
 function Footer(props) {
 
