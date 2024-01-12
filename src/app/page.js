@@ -47,7 +47,7 @@ export default function Home() {
   return (
     <div className={styles['main-wrapper']}>
       <main className={styles.main}>
-        <Image fill={true} src='/images/photo2.jpg' alt='image'/>
+        <Image fill={true} priority={true} src='/images/photo2.jpg' alt='image'/>
         <div className={styles.sliderContainer}>
           <div ref={slider} className={styles.slider}>
             <p ref={firstText}>Hey! I'm Ilya and I'm Frontend Developer -</p>
