@@ -37,5 +37,5 @@ export function middleware(request) {
 
 export const config = {
   // Matcher ignoring `/_next/` and `/api/`
-  matcher: ['/((?!api|_next/static|_next/image|favicon.png|avatar.svg|blob.svg|click.svg|unitedkingdom.svg|spain.svg|brush.png|twitter.png|linkedin.png|instagram.png|facebook.png|skills.jpg|loft-oblaka.png|life-pay.png|reelso-mania.png|holy-posh.png|person-1.png|person-2.png|person-3.png|contact.jpg).*)']
+  matcher: ['/((?!api|_next/static|_next/images|favicon.png|avatar.svg|blob.svg|click.svg|unitedkingdom.svg|spain.svg|brush.png|twitter.png|linkedin.png|instagram.png|facebook.png|skills.jpg|loft-oblaka.png|life-pay.png|reelso-mania.png|holy-posh.png|person-1.png|person-2.png|person-3.png|contact.jpg).*)']
 }
