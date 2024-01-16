@@ -44,7 +44,7 @@ export default function Work({ page }) {
                     }}
           className={`${styles.card}`}>
           <div className={`${styles.card__side} ${styles[`card__side--front`]}`}>
-            <Image src="/images/iTalk.png" alt="iTalk" fill={true} className={styles.image}/>
+            <Image src="/iTalk.png" alt="iTalk" fill={true} className={styles.image}/>
           </div>
           <div className={`${styles.card__side} ${styles[`card__side--back`]} ${styles[`card__side--back-1`]}`}>
             <a href={'https://italk-7gco.onrender.com/'} target="_blank"
@@ -76,7 +76,7 @@ export default function Work({ page }) {
           className={`${styles.card}`}>
           <div className={`${styles.card__side} ${styles[`card__side--front`]}`}>
             {/*<img src="/images/Quantum.png" alt="Quantum" className={styles.image}/>*/}
-            <Image src="/images/Quantum.png" alt="iTalk" fill={true} className={styles.image}/>
+            <Image src="/Quantum.png" alt="iTalk" fill={true} className={styles.image}/>
           </div>
           <div className={`${styles.card__side} ${styles[`card__side--back`]} ${styles[`card__side--back-2`]}`}>
             <a href={'https://quantum-tfiy.onrender.com/'} target="_blank"
@@ -109,7 +109,7 @@ export default function Work({ page }) {
                     }}
           className={`${styles.card}`}>
           <div className={`${styles.card__side} ${styles[`card__side--front`]}`}>
-            <Image src="/images/MyBlog.png" alt="iTalk" fill={true} className={styles.image}/>
+            <Image src="/MyBlog.png" alt="iTalk" fill={true} className={styles.image}/>
           </div>
           <div className={`${styles.card__side} ${styles[`card__side--back`]} ${styles[`card__side--back-3`]}`}>
             <a href={'https://reddywish.com/'} target="_blank"
@@ -139,7 +139,7 @@ export default function Work({ page }) {
                     }}
           className={`${styles.card}`}>
           <div className={`${styles.card__side} ${styles[`card__side--front`]}`}>
-            <Image src="/images/bodySymphony.png" alt="iTalk" fill={true} className={styles.image}/>
+            <Image src="/bodySymphony.png" alt="iTalk" fill={true} className={styles.image}/>
           </div>
           <div className={`${styles.card__side} ${styles[`card__side--back`]} ${styles[`card__side--back-4`]}`}>
             <a href={'https://body-symphony.onrender.com/'} target="_blank"

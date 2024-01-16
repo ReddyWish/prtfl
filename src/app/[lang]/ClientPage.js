@@ -47,7 +47,7 @@ export default function ClientPage({ page }) {
   return (
     <div className={styles['main-wrapper']}>
       <main className={styles.main}>
-        <Image fill={true} priority={true} src='/images/photo2.jpg' alt='image'/>
+        <Image fill={true} priority={true} src='/photo2.jpg' alt='image'/>
         <div className={styles.sliderContainer}>
           <div ref={slider} className={styles.slider}>
             <p ref={firstText}>{page.home.main} -</p>
