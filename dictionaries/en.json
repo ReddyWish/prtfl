@@ -1,0 +1,78 @@
+{
+  "page": {
+    "home": {
+      "main": "Hey! I'm Ilya and I'm Frontend Developer",
+      "navigate": "Navigation",
+      "about": {
+        "title": "ABOUT",
+        "description1": "Hello! I'm ",
+        "description2": "Ilya",
+        "description3": " a dedicated frontend developer driven by a passion for technology. While my journey may not be filled with extensive experience, one thing I can confidently say is that I'm a quick learner with exceptional soft skills. My dream is to evolve into a proficient specialist, and I'm on the lookout for intriguing projects and the opportunity to join a dynamic team. Feel free to get in touch with me",
+        "price": "Freelance collaboration from 20 € / hour"
+      },
+      "projects": {
+        "title": "Projects",
+        "italk": {
+          "title": "iTalk",
+          "subtitle": "Fullstack Blog Project",
+          "techstack": "Tech Stack",
+          "techstacklist": {
+            "Frontend": "Frontend: React",
+            "Backend": "Backend: Node.js and Express",
+            "Database": "Database: MongoDB",
+            "State Management": "State Management: Redux Toolkit & RTK Query",
+            "Authentication": "Authentication: JWT tokens with safe storage and transmission as HTTP-only cookies"
+          },
+          "performanceTitle": "Performance and Limitations",
+          "performanceSubtitle": "Since this is just a pet project on a free platform, there might be some limitations on images uploading and launch time. While these limitations may affect performance to some extent, I invite you to check out the project!"
+        },
+        "quantum": {
+          "title": "Quantum",
+          "subtitle": "Fullstack EComm Project",
+          "techstack": "Key Features",
+          "techstacklist": {
+            "stack": "MERN Stack",
+            "cart": "Smart Cart Functionality",
+            "payment": "Secure Payment Processing",
+            "pagination": "Server-Side Pagination",
+            "admin": "Admin Panel"
+          },
+          "performanceTitle": "Performance and Limitations",
+          "performanceSubtitle": "Since this project is not finished, it is hosted on a free platform for some time, there might be some limitations on images uploading and launch time. Despite of this limitation you are welcome to check out this project"
+        },
+        "blog": {
+          "title": "My Blog",
+          "subtitle": "NextJS Project",
+          "techstack": "Key Features",
+          "techstacklist": {
+            "nextjs": "NextJS implementation",
+            "github": "GitHub API integration"
+          },
+          "performanceTitle": "Performance and Limitations",
+          "performanceSubtitle": "With server-side rendering at the core, the blog delivers dynamic content. Whenever a new post is pushed into the GitHub repository, the application updates itself without the need for continuous redeployment."
+        },
+        "symphony": {
+          "title": "Body Symphony",
+          "subtitle": "Body Symphony Project",
+          "techstack": "Tech Stack",
+          "techstacklist": {
+            "React": "React",
+            "TypeScript": "TypeScript",
+            "Tailwind":  "Tailwind",
+            "React useForm": "React useForm"
+          },
+          "performanceTitle": "About",
+          "performanceSubtitle": "Modest commercial project for small Fitness Studio, feel free to use best practices and patterns for your own projects"
+        }
+      },
+      "contacts": {
+        "title1": "Contact",
+        "title2": " Me",
+        "submit": "Submit",
+        "name": "Your name",
+        "subject": "Write a Subject",
+        "message": "Your message"
+      }
+    }
+  }
+}

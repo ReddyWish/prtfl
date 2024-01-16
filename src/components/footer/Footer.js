@@ -2,9 +2,10 @@
 import React from 'react';
 import styles from './style.module.scss';
 import { useForm } from "react-hook-form";
+import { motion } from 'framer-motion';
 
-function Footer(props) {
-
+function Footer({ page }) {
+  let section = page.home.contacts
   const { register, trigger,  formState: {errors} } = useForm();
 
   const onSubmit = async (e) => {
@@ -17,15 +18,31 @@ function Footer(props) {
   return (
     <footer className={styles.footer} >
 
-        <div className={styles.item}>
-          <h1 className={styles.contact}>CONTACT <span className={styles.accent}>ME</span> </h1>
-        </div>
+        <motion.div initial='hidden'
+                    whileInView='visible'
+                    viewport={{once: true, amount: 0.5}}
+                    transition={{duration: 0.8}}
+                    variants={{
+                      hidden: {opacity: 0, y: -50},
+                      visible: {opacity: 1, y: 0}
+                    }}
+          className={styles.item}>
+          <h1 className={styles.contact}>{section.title1} <span className={styles.accent}>{section.title2}</span> </h1>
+        </motion.div>
 
-      <div className={styles.item}>
+      <motion.div initial='hidden'
+                  whileInView='visible'
+                  viewport={{once: true, amount: 0.5}}
+                  transition={{delay: 0.3, duration: 0.8}}
+                  variants={{
+                    hidden: {opacity: 0, y: -50},
+                    visible: {opacity: 1, y: 0}
+                  }}
+        className={styles.item}>
         <form target='_blank' className={styles.form} onSubmit={onSubmit} method="POST" action='https://formsubmit.co/448604eb6a68611a339c0f9df372b8ee'>
           <input
             type="text"
-            placeholder='Your name'
+            placeholder={section.name}
             {...register('name', {
               required: true,
               maxLength: 100
@@ -37,7 +54,7 @@ function Footer(props) {
           )}
           <input
             type="text"
-            placeholder='Write a Subject'
+            placeholder={section.subject}
             {...register('subject', {
               required: true
             })}/>
@@ -50,7 +67,7 @@ function Footer(props) {
             name="" id=""
             cols="30"
             rows="10"
-            placeholder='Your message'
+            placeholder={section.message}
             {...register('message', {
               required: true
             })}></textarea>
@@ -59,9 +76,9 @@ function Footer(props) {
               {errors.name.type === 'required' && 'This field is required'}
             </p>
           )}
-          <button type="submit" name='' className={styles.btn}>Submit</button>
+          <button type="submit" name='' className={styles.btn}>{section.submit}</button>
         </form>
-      </div>
+      </motion.div>
 
     </footer>
   );

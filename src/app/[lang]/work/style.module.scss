@@ -31,6 +31,7 @@
 
 .container {
   padding: 20px;
+  margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
@@ -45,7 +46,6 @@
   position: relative;
   height: 600px;
   width: 300px;
-  border-radius: 70px;
 
 
   &__side {
@@ -61,10 +61,13 @@
 
     &--front {
       background-color: white;
+      border-radius: 17px;
+
     }
 
     &--back {
       transform: rotateY(180deg);
+      border-radius: 15px;
 
       &-1 {
         background-color: #292929;
@@ -98,6 +101,7 @@
   object-fit: cover;
   width: 100%;
   height: 100%;
+  border-radius: 15px;
 }
 
 .cardTitle {
@@ -105,6 +109,7 @@
   letter-spacing: 1px;
   //font-size: 16px;
   transition: all 0.3s;
+  text-align: center;
 
   &:hover {
     color: #e8bad1;
@@ -116,7 +121,29 @@
 .cardSubTitle {
   color: white;
   line-height: 1.2;
+}
 
+.projectTitle {
+  text-align: center;
+}
+
+.techStackTitle {
+  text-align: center;
+  font-weight: bold;
+}
+
+.techStack {
+  margin-right: 10px;
+  padding-bottom: 15px;
+}
+
+.limitations {
+  text-align: center;
+}
+.description {
+  margin-left: 10px;
+  margin-right: 10px;
+  text-space: 2px;
 }
 
 .accent {

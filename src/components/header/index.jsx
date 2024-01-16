@@ -5,7 +5,7 @@ import Nav from './nav';
 import { AnimatePresence } from 'framer-motion';
 import { usePathname } from 'next/navigation';
 
-function Index(props) {
+function Index() {
   const [isActive, setIsActive] = useState(false);
   const pathname = usePathname();
 
@@ -16,7 +16,6 @@ function Index(props) {
   return (
     <>
       <div>
-
         <div className={styles.header}>
           <div onClick={() => {setIsActive(!isActive)}} className={styles.button}>
             <div className={`${styles.burger} ${isActive ? styles.burgerActive : ""}`}></div>

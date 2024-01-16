@@ -1,7 +1,6 @@
 import React from 'react';
 import styles from './style.module.scss';
 function Index({ text, className }) {
-  console.log(text, className)
   return (
     <h1>
       <span className='sr-only'>{text}</span>

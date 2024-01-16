@@ -13,8 +13,8 @@
   text-align: center;
   align-self: center;
   display: flex;
-  justify-content: center; /* Horizontally center content */
-  align-items: center; /* Vertically center content */
+  justify-content: center;
+  align-items: center;
 }
 
 .contact {
@@ -28,7 +28,7 @@
 
 .accent {
   color: #ef7fbe;
-  display: inline-block; /* Ensures that the rotation doesn't affect the layout of surrounding elements */
+  display: inline-block;
   transform: rotate(-10deg);
   transition: all .8s;
 
@@ -78,7 +78,7 @@
   font-size: 30px;
   border: none;
   font-weight: bold;
-  transition: background 2s ease, opacity .9s ease;
+  transition: background 1s ease, opacity 0.9s ease;
 }
 
 .btn:hover {

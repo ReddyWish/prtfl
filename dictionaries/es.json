@@ -1,0 +1,78 @@
+{
+  "page": {
+    "home": {
+      "main": "¡Hola! Soy Ilya y soy Desarrollador Frontend",
+      "navigate": "Navegación",
+      "about": {
+        "title": "Sobre Mí",
+        "description1": "¡Hola! Soy ",
+        "description2": "Ilya",
+        "description3": " un dedicado desarrollador frontend impulsado por una pasión por la tecnología. Aunque mi trayectoria puede no estar llena de una experiencia extensa, algo que puedo decir con confianza es que soy un aprendiz rápido con habilidades interpersonales excepcionales. Mi sueño es evolucionar en un especialista competente y estoy en busca de proyectos intrigantes y la oportunidad de unirme a un equipo dinámico. No dudes en ponerte en contacto conmigo.",
+        "price": "Colaboración freelance a partir de 20 € / hora"
+      },
+      "projects": {
+        "title": "Proyectos",
+        "italk": {
+          "title": "iTalk",
+          "subtitle": "Proyecto de Blog Fullstack",
+          "techstack": "Tecnología Utilizada",
+          "techstacklist": {
+            "Frontend": "Frontend: React",
+            "Backend": "Backend: Node.js y Express",
+            "Database": "Base de Datos: MongoDB",
+            "State Management": "Gestión de Estado: Redux Toolkit & RTK Query",
+            "Authentication": "Autenticación: Tokens JWT con almacenamiento seguro y transmisión como cookies HTTP-only"
+          },
+          "performanceTitle": "Rendimiento y Limitaciones",
+          "performanceSubtitle": "Dado que este es solo un proyecto personal en una plataforma gratuita, puede haber algunas limitaciones en la carga de imágenes y el tiempo de inicio. Aunque estas limitaciones pueden afectar el rendimiento en cierta medida, ¡te invito a que explores el proyecto!"
+        },
+        "quantum": {
+          "title": "Quantum",
+          "subtitle": "Proyecto de E-commerce Fullstack",
+          "techstack": "Características Clave",
+          "techstacklist": {
+            "stack": "Pila MERN",
+            "cart": "Funcionalidad de Carrito Inteligente",
+            "payment": "Procesamiento de Pagos Seguro",
+            "pagination": "Paginación en el Servidor",
+            "admin": "Panel de Administración"
+          },
+          "performanceTitle": "Rendimiento y Limitaciones",
+          "performanceSubtitle": "Dado que este proyecto no está terminado y está alojado en una plataforma gratuita por un tiempo, puede haber algunas limitaciones en la carga de imágenes y el tiempo de inicio. A pesar de esta limitación, te invitamos a que explores este proyecto."
+        },
+        "blog": {
+          "title": "Mi Blog",
+          "subtitle": "Proyecto NextJS",
+          "techstack": "Características Clave",
+          "techstacklist": {
+            "nextjs": "Implementación de NextJS",
+            "github": "Integración con la API de GitHub"
+          },
+          "performanceTitle": "Rendimiento y Limitaciones",
+          "performanceSubtitle": "Con el renderizado en el lado del servidor como núcleo, el blog ofrece contenido dinámico. Cada vez que se agrega una nueva publicación en el repositorio de GitHub, la aplicación se actualiza sin necesidad de una implementación continua."
+        },
+        "symphony": {
+          "title": "Body Symphony",
+          "subtitle": "Proyecto Body Symphony",
+          "techstack": "Tecnología Utilizada",
+          "techstacklist": {
+            "React": "React",
+            "TypeScript": "TypeScript",
+            "Tailwind": "Tailwind",
+            "React useForm": "React useForm"
+          },
+          "performanceTitle": "Acerca de",
+          "performanceSubtitle": "Proyecto comercial modesto para un pequeño estudio de fitness. Siéntete libre de utilizar las mejores prácticas y patrones para tus propios proyectos."
+        }
+      },
+      "contacts": {
+        "title1": "Contácta",
+        "title2": "me",
+        "submit": "Enviar",
+        "name": "Tu nombre",
+        "subject": "Escribe un asunto",
+        "message": "Tu mensaje"
+      }
+    }
+  }
+}

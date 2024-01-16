@@ -1,15 +1,15 @@
-'use client';
-import Image from 'next/image';
-import styles from './page.module.css';
-import { gsap } from 'gsap';
+'use client'
+import { useEffect, useRef } from "react";
+import { gsap } from "gsap";
+import styles from "@/app/[lang]/page.module.css";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
-import { useEffect, useRef } from 'react';
-import About from "@/app/about";
-import Work from "@/app/work";
+import Image from "next/image";
+import About from "@/app/[lang]/about";
+import Work from "@/app/[lang]/work";
 import Footer from "@/components/footer/Footer";
 
-export default function Home() {
 
+export default function ClientPage({ page }) {
   const firstText = useRef(null);
   const secondText = useRef(null);
   const slider = useRef(null);
@@ -50,14 +50,14 @@ export default function Home() {
         <Image fill={true} priority={true} src='/images/photo2.jpg' alt='image'/>
         <div className={styles.sliderContainer}>
           <div ref={slider} className={styles.slider}>
-            <p ref={firstText}>Hey! I'm Ilya and I'm Frontend Developer -</p>
-            <p ref={secondText}>Hey! I'm Ilya and I'm Frontend Developer -</p>
+            <p ref={firstText}>{page.home.main} -</p>
+            <p ref={secondText}>{page.home.main} -</p>
           </div>
         </div>
       </main>
-      <About/>
-      <Work/>
-      <Footer/>
+      <About page={page}/>
+      <Work page={page}/>
+      <Footer page={page}/>
     </div>
   )
 }
