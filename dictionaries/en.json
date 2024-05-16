@@ -72,6 +72,11 @@
         "name": "Your name",
         "subject": "Write a Subject",
         "message": "Your message"
+      },
+      "policy": {
+        "privacy": "Privacy Policy",
+        "conditions": "Use conditions",
+        "cookies": "Cookies"
       }
     }
   }

@@ -16,19 +16,19 @@ function Footer({ page }) {
   }
 
   return (
-    <footer className={styles.footer} >
+    <footer className={styles.footer}>
 
-        <motion.div initial='hidden'
-                    whileInView='visible'
-                    viewport={{once: true, amount: 0.5}}
-                    transition={{duration: 0.8}}
-                    variants={{
-                      hidden: {opacity: 0, y: -50},
-                      visible: {opacity: 1, y: 0}
-                    }}
-          className={styles.item}>
-          <h1 className={styles.contact}>{section.title1} <span className={styles.accent}>{section.title2}</span> </h1>
-        </motion.div>
+      <motion.div initial='hidden'
+                  whileInView='visible'
+                  viewport={{once: true, amount: 0.5}}
+                  transition={{duration: 0.8}}
+                  variants={{
+                    hidden: {opacity: 0, y: -50},
+                    visible: {opacity: 1, y: 0}
+                  }}
+                  className={styles.item}>
+        <h1 className={styles.contact}>{section.title1} <span className={styles.accent}>{section.title2}</span></h1>
+      </motion.div>
 
       <motion.div initial='hidden'
                   whileInView='visible'
@@ -38,8 +38,9 @@ function Footer({ page }) {
                     hidden: {opacity: 0, y: -50},
                     visible: {opacity: 1, y: 0}
                   }}
-        className={styles.item}>
-        <form target='_blank' className={styles.form} onSubmit={onSubmit} method="POST" action='https://formsubmit.co/448604eb6a68611a339c0f9df372b8ee'>
+                  className={styles.item}>
+        <form target='_blank' className={styles.form} onSubmit={onSubmit} method="POST"
+              action='https://formsubmit.co/448604eb6a68611a339c0f9df372b8ee'>
           <input
             type="text"
             placeholder={section.name}
@@ -48,9 +49,9 @@ function Footer({ page }) {
               maxLength: 100
             })}/>
           {errors.name && (
-      <p className={styles.error}>
-        {errors.name.type === 'required' && 'This field is required'}
-      </p>
+            <p className={styles.error}>
+              {errors.name.type === 'required' && 'This field is required'}
+            </p>
           )}
           <input
             type="text"
@@ -79,7 +80,6 @@ function Footer({ page }) {
           <button type="submit" name='' className={styles.btn}>{section.submit}</button>
         </form>
       </motion.div>
-
     </footer>
   );
 }

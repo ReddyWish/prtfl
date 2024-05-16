@@ -7,6 +7,7 @@ import Image from "next/image";
 import About from "@/app/[lang]/about";
 import Work from "@/app/[lang]/work";
 import Footer from "@/components/footer/Footer";
+import Policy from "@/components/policy/Policy";
 
 
 export default function ClientPage({ page }) {
@@ -58,6 +59,7 @@ export default function ClientPage({ page }) {
       <About page={page}/>
       <Work page={page}/>
       <Footer page={page}/>
+      <Policy page={page}/>
     </div>
   )
 }

@@ -72,6 +72,11 @@
         "name": "Tu nombre",
         "subject": "Escribe un asunto",
         "message": "Tu mensaje"
+      },
+      "policy": {
+        "privacy": "Política de Privacidad",
+        "conditions": "Condiciones de uso",
+        "cookies": "Cookies"
       }
     }
   }
