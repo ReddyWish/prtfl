@@ -1,0 +1,70 @@
+.wrapper {
+  padding-top: 60px;
+  width: 100%;
+}
+
+.projects {
+  color: white;
+  letter-spacing: 3px;
+  padding-left: 20px;
+  position: relative;
+
+  span {
+    position: relative;
+    display: inline-block;
+    font-size: 40px;
+    color: #fff;
+    text-transform: uppercase;
+    animation: flip 2s infinite;
+    animation-delay: calc(.2s * var(--i))
+  }
+}
+
+
+.span {
+  position: relative;
+  display: inline-block;
+  font-size: 40px;
+  color: #fff;
+  text-transform: uppercase;
+  animation: flip 2s infinite;
+  animation-delay: calc(.2s * var(--i))
+}
+
+
+.content {
+  border-bottom: 1px solid white;
+  padding: 20px;
+  padding-bottom: 30px;
+}
+
+.pricingSection {
+  width: 100%;
+  max-width: 87%;
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  margin: 0 auto;
+
+  .card {
+    border: 2px solid #fff;
+    border-radius: 24px;
+    padding: 20px;
+    color: #fff;
+    text-align: start;
+
+    h3 {
+      margin-bottom: 10px;
+      font-size: 1.5rem;
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+
+      li {
+        margin-bottom: 8px;
+      }
+    }
+  }
+}
